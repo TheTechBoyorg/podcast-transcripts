@@ -1,0 +1,47 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+input#search {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+ul#transcript-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul#transcript-list li {
+  margin-bottom: 0.8rem;
+}
+
+ul#transcript-list a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+ul#transcript-list a:hover {
+  text-decoration: underline;
+}
